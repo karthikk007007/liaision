@@ -1,0 +1,17 @@
+{
+  "name": "liaision",
+  "version": "1.0.0",
+  "description": "Liaision project with payment webhooks and tokenomics",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}
